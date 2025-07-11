@@ -1,5 +1,14 @@
 
-.open-sans-simple{
+
+.open-sans-normal{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.open-sans-inter{
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
@@ -16,7 +25,7 @@
   justify-content: space-between;
   text-justify:auto;
   color: #4E47FF;
-  size: 36px;
+  size: 34px;
   margin: 0 150px;
   
 }
@@ -32,11 +41,12 @@
 }
 /* .............................Cool-Dark........................................... */
 body{
-  background-color: #F5F8FF;
+  background-color:#F5f8ff;
   max-width: 1140px;
   margin: 0 auto;
 }
-main{background-color: #F5F8FF
+main{
+  background-color: #F5f8ff;
   
   /* padding: auto; */
 }
@@ -154,7 +164,7 @@ main{background-color: #F5F8FF
 
 /* -------------------------------------------------------------------- */
 .section-three{
-  background-color: #FFFFFF;
+  background-color: #F5f8ff;
    margin:10px;
   
    
