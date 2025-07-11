@@ -181,9 +181,7 @@ main{
   display: flex;
   justify-content:space-between;
   
-  /* text-align: center; */
- 
-  
+  text-align:left;  
 }
 .textstyle-three{
   background-position: center;
@@ -194,6 +192,7 @@ main{
 /* ----------------------------------------------------- */
 .name{
   color: #757575;
+  text-align:top;
 }
 .date{
   color: #B3B3B3;
