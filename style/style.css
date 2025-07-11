@@ -7,8 +7,8 @@
   font-variation-settings:
     "wdth" 100;
 }
-
-/* ...........................logo & sign Up................................................ */
+/* .....................header....................................... */
+/* ...........................logo & sign Up.......................... */
 .logo{
   display: flex;
   align-items: center;
@@ -23,9 +23,10 @@
   border-radius: 10px;
   color: #ffffff;
   height: 51px;
-  width: 150px;
+  width: 200px;
   border: none;
-  padding: 12px 36px;
+  padding: 10px 36px;
+  white-space: nowrap;
 }
 /* .............................Cool-Dark........................................... */
 .Cool-Dark{
@@ -33,12 +34,7 @@
   font-weight: bold;
   font-size: 65px;
   padding-top: 56px;
-  
-  
-}
-.for-align{
-  text-align: center;
-  
+  text-align: center;  
 }
 .btn-secondary{
   background-color: #4E47FF;
@@ -47,12 +43,40 @@
   height: 51px;
   width: 150px;
   border: none;
+  justify-content: center;  
+}
+.btn-modifire{
+  background-position: center;
+  justify-content: center;
+  display: flex;
+
   
 }
+/*.................................... 1st background............... */
 .bg{
   background-image: url(../B12A01-landing-launchpad/Assets/Hero-bg.png);
   /* background-repeat: no-repeat; */
   background-position: center;
   /* background-size: 1440px 698px; */
   size: 1440px 698px;
+}
+/* ...................................main......................... */
+/* .........................See It in Action..................... */
+.see-img{
+   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-justify:auto;
+  margin: 20px 150px;
+}
+/* ............................webflow-img....................... */
+.webflow-img{
+  border-radius: 48px;
+}
+.seeit{
+  color: rgba(37, 36, 50, 1);
+}
+.Explore-text{
+  color: rgba(37, 36, 50, 0.5);
+  size: 24px;
 }
