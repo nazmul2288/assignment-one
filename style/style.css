@@ -80,3 +80,51 @@
   color: rgba(37, 36, 50, 0.5);
   size: 24px;
 }
+/* ............................................................................... */
+
+.open-sans-textstyle-two> {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  
+  font-variation-settings:
+    "wdth" 100;
+}
+.stats-section {
+  text-align: center;
+  padding: 50px 20px;
+  background-color:rgba(78, 71, 255, 0.1);
+  margin: 20px 150px;
+  border-radius: 24px;
+}
+
+.stats-section h2 {
+  font-size: 24px;
+  margin-bottom: 30px;
+  color: rgba(37, 36, 50, 1);
+}
+
+.stats-box {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  
+  /* flex-wrap: wrap; */
+}
+
+.stat-item {
+  text-align: center;
+  min-width: 80px;
+  
+}
+
+.stat-item h3 {
+  font-size: 36px;
+  color: #6a3df4; /* তোমার ছবির মতো বেগুনি */
+  margin-bottom: 5px;
+}
+
+.stat-item p {
+  font-size: 14px;
+  color: #666;
+}
