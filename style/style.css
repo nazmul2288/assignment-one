@@ -3,7 +3,7 @@
 .open-sans-normal{
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: weight;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
@@ -11,7 +11,7 @@
 .open-sans-inter{
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight:weight;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
@@ -111,14 +111,7 @@ main{
 }
 /* ............................................................................... */
 
-.open-sans-textstyle-two> {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  
-  font-variation-settings:
-    "wdth" 100;
-}
+
 .stats-section {
   text-align: center;
   padding: 50px 20px;
@@ -179,9 +172,9 @@ main{
   background-color: rgba(242, 237, 237, 1);  
   list-style: none;
   text-decoration: none; 
-  margin: 20px; */
+  margin: 20px;
   border-radius: 14px;
-  padding: 20px; */
+  padding: 20px;
   
 }
 .reviwer-card{
