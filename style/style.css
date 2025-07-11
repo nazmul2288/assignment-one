@@ -2,7 +2,7 @@
 .open-sans-simple{
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
- 
+  font-weight: <weight>;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
@@ -68,6 +68,7 @@
   justify-content: space-between;
   text-justify:auto;
   margin: 20px 150px;
+  margin: 0 159px 0 141px;
 }
 /* ............................webflow-img....................... */
 .webflow-img{
@@ -120,11 +121,48 @@
 
 .stat-item h3 {
   font-size: 36px;
-  color: #6a3df4; /* তোমার ছবির মতো বেগুনি */
+  color: #6a3df4;
   margin-bottom: 5px;
 }
 
 .stat-item p {
   font-size: 14px;
   color: #666;
+}
+/* -----------------------------4th layer----------------------------- */
+
+/* -------------------------------------------------------------------- */
+.section-three{
+  background-color: #FFFFFF;
+   margin:159px;
+   
+}
+.textstyle-three{
+  display: flex;
+  text-align: center;
+}
+.card-style{
+  background-color: rgba(242, 237, 237, 1);
+  padding: 24px;
+  list-style: none;
+  text-decoration: none;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 14px;
+  text-size-adjust: ;
+}
+.reviwer-card{
+  display: flex;
+  
+}
+.textstyle-three{
+  background-position: center;
+  justify-content: center;
+  display: flex;
+}
+.name{
+  color: #757575;
+}
+.date{
+  color: #B3B3B3;
 }
